@@ -53,20 +53,6 @@ if os.path.exists("~/anaconda3/lib/python3.7/site-packages"):
     sys.path.append('~/anaconda3/lib/python3.7/site-packages')
 import cv2
 
-
-
-############################# LED CODE #########
-while(i>2):
-    GPIO.output(11, GPIO.HIGH) # Turn on
-    sleep(1)                  # Sleep for 1 second
-    GPIO.output(11, GPIO.LOW)  # Turn off
-    sleep(1)                  # Sleep for 1 second
-    i=i-1
-GPIO.cleanup()
-####################################################
-
-
-
 ######################################################
 ##  Depth parameters - reconfigurable               ##
 ######################################################
