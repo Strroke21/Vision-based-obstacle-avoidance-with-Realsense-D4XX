@@ -21,13 +21,6 @@
 # Set the path for pyrealsense2.[].so
 # Otherwise, place the pyrealsense2.[].so file under the same directory as this script or modify PYTHONPATH
 
-############################## LED ##########################
-import RPi.GPIO as GPIO
-from time import sleep
-GPIO.setmode(GPIO.BOARD)
-GPIO.setup(11, GPIO.OUT)
-i=5
-
 ##############################################################
 
 import sys
