@@ -50,6 +50,7 @@ The main script to be used with AP is d4xx_to_mavlink.py. The second script, ope
 
 # Parameter Configuration
 **Companion Computer Side**
+
 Within the script d4xx_to_mavlink.py, find the following parameters and reconfigure them if need to:
 
 Connection to the flight controller:
