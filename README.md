@@ -16,4 +16,24 @@ Configuration: rangefinder 15 and optical flow 13 sensors would be necessary for
 OS: Ubuntu 18.04. Highly recommended as this release is the most up-to-date with the required libraries.
 Please note that we will provide support exclusively on this version. For earlier version of Ubuntu, you need to modify each installation step to work for your case (in case of too many conflicting installations, you may find Anaconda 8 to be helpful).
 Python 3.6 and above, which is also the standard for Ubuntu 18.04. Check with $ python3 -V, you should see the version, something like Python 3.6.9.
-librealsense 12: download or install from source 13.
+librealsense 12: download or install from source.
+
+# Installation
+Installation of supporting packages:
+pip3 install pyrealsense2
+pip3 install transformations
+pip3 install dronekit
+pip3 install apscheduler
+pip3 install pyserial # For serial connection
+pip3 install opencv-python
+
+- Only necessary if you installed the minimal version of Ubuntu
+sudo apt install python3-opencv
+Download the script, or clone the ROS node if you are using ROS (although we won’t cover ROS in this blog post):
+- Clone the package in the ROS workspace or any location if you don't use ROS
+cd ~/catkin_ws/src
+git clone https://github.com/hoangthien94/vision_to_mavros.git
+cd vision_to_mavros/script
+chmod +x d4xx_to_mavlink.py
+chmod +x opencv_depth_filtering.py
+The main script to be used with AP is d4xx_to_mavlink.py. The second script, opencv_depth_filtering.py is used to test out different filtering options, which is explained in more details in the final discussion section.
