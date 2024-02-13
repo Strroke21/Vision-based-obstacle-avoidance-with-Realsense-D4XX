@@ -43,7 +43,7 @@ Download the script, or clone the ROS node if you are using ROS (although we won
 >>
 >>cd vision_based_avoidance
 >>
->>chmod +x d4XX_to_mavlink.py
+>>chmod +x d4xx_to_mavlink.py
 >>
 
 The main script to be used with AP is d4xx_to_mavlink.py. The second script, opencv_depth_filtering.py is used to test out different filtering options, which is explained in more details in the final discussion section.
