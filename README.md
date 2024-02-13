@@ -49,7 +49,7 @@ Download the script, or clone the ROS node if you are using ROS (although we won
 The main script to be used with AP is d4xx_to_mavlink.py. The second script, opencv_depth_filtering.py is used to test out different filtering options, which is explained in more details in the final discussion section.
 
 # Parameter Configuration
-- 1. Companion Computer Side
+**Companion Computer Side**
 Within the script d4xx_to_mavlink.py, find the following parameters and reconfigure them if need to:
 
 Connection to the flight controller:
