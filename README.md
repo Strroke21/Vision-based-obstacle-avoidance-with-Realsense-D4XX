@@ -41,7 +41,7 @@ Download the script, or clone the ROS node if you are using ROS (although we won
 >>
 >>git clone https://github.com/hoangthien94/vision_to_mavros.git
 >>
->>cd vision_to_mavros/script
+>>cd Vision-
 >>
 >>chmod +x d4xx_to_mavlink.py
 >>
