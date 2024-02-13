@@ -39,9 +39,9 @@ Download the script, or clone the ROS node if you are using ROS (although we won
 
 >>cd ~/catkin_ws/src
 >>
->>git clone https://github.com/hoangthien94/vision_to_mavros.git
+>>git clone https://github.com/Strroke21/vision_based_avoidance.git
 >>
->>cd Vision-
+>>cd vision_based_avoidance
 >>
 >>chmod +x d4xx_to_mavlink.py
 >>
