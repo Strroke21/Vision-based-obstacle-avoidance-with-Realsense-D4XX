@@ -20,12 +20,17 @@ librealsense 12: download or install from source.
 
 # Installation
 Installation of supporting packages:
-pip3 install pyrealsense2
-pip3 install transformations
-pip3 install dronekit
-pip3 install apscheduler
-pip3 install pyserial # For serial connection
-pip3 install opencv-python
+>>pip3 install pyrealsense2
+>>
+>>pip3 install transformations
+>>
+>>pip3 install dronekit
+>>
+>>pip3 install apscheduler
+>>
+>>pip3 install pyserial # For serial connection
+>>
+>>pip3 install opencv-python
 
 - Only necessary if you installed the minimal version of Ubuntu
 sudo apt install python3-opencv
