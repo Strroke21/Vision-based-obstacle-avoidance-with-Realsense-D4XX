@@ -31,9 +31,10 @@ pip3 install opencv-python
 sudo apt install python3-opencv
 Download the script, or clone the ROS node if you are using ROS (although we won’t cover ROS in this blog post):
 - Clone the package in the ROS workspace or any location if you don't use ROS
-cd ~/catkin_ws/src
-git clone https://github.com/hoangthien94/vision_to_mavros.git
-cd vision_to_mavros/script
-chmod +x d4xx_to_mavlink.py
-chmod +x opencv_depth_filtering.py
-The main script to be used with AP is d4xx_to_mavlink.py. The second script, opencv_depth_filtering.py is used to test out different filtering options, which is explained in more details in the final discussion section.
+
+>>cd ~/catkin_ws/src
+>>git clone https://github.com/hoangthien94/vision_to_mavros.git
+>>cd vision_to_mavros/script
+>>chmod +x d4xx_to_mavlink.py
+>>chmod +x opencv_depth_filtering.py
+>>The main script to be used with AP is d4xx_to_mavlink.py. The second script, opencv_depth_filtering.py is used to test out different filtering options, which is explained in more details in the final discussion section.
