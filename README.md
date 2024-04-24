@@ -1,7 +1,7 @@
 # Introduction
 In this blog post, we will attempt to extend ArduPilot’s obstacle avoidance ability 26 with the Intel Realsense depth camera.
 # Prerequisites 
-**Harware**
+**Hardware**
 - Onboard computer with at least one USB 3.0 port.
 - x86-based CPU is recommended for compatibility with Intel’s libraries and hardware. I am using the Up Squared SoC board 58. For other boards of other architecture (RPi, Jetson etc.), you might encounter troubles with installation the packages below.
 - Since we are processing depth images to some degree, it might be the case the processing speed will vary greatly between the RPi4, Up2, Jetson Nano/TX/Xavier etc. So keep that in mind to tune the system if the performance is not satisfactory to you.
