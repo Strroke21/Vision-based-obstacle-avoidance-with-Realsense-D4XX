@@ -20,31 +20,25 @@ librealsense 12: download or install from source.
 
 # Installation
 Installation of supporting packages:
->>pip3 install pyrealsense2
->>
->>pip3 install transformations
->>
->>pip3 install dronekit
->>
->>pip3 install apscheduler
->>
->>pip3 install pyserial # For serial connection
->>
->>pip3 install opencv-python
+```
+pip3 install pyrealsense2
+pip3 install transformations
+pip3 install dronekit
+pip3 install apscheduler
+pip3 install pyserial # For serial connection
+pip3 install opencv-python
+```
 
 - Only necessary if you installed the minimal version of Ubuntu
 sudo apt install python3-opencv
 Download the script, or clone the ROS node if you are using ROS (although we won’t cover ROS in this blog post):
 - Clone the package in the ROS workspace or any location if you don't use ROS
-
->>cd ~/catkin_ws/src
->>
->>git clone https://github.com/Strroke21/vision_based_avoidance.git
->>
->>cd vision_based_avoidance
->>
->>chmod +x d4xx_to_mavlink.py
->>
+```
+cd ~/catkin_ws/src
+git clone https://github.com/Strroke21/vision_based_avoidance.git
+cd vision_based_avoidance
+chmod +x d4xx_to_mavlink.py
+```
 
 The main script to be used with AP is d4xx_to_mavlink.py. The second script, opencv_depth_filtering.py is used to test out different filtering options, which is explained in more details in the final discussion section.
 
